@@ -46,38 +46,29 @@ A role-based Job Portal built using PHP and MySQL where employers can post jobs 
 
 ## Project Structure
 
-
 job-portal/
-│
 ├── db.php
 ├── login.php
 ├── register.php
 ├── logout.php
-│
 ├── jobseeker_dashboard.php
 ├── jobs.php
 ├── my_applications.php
-│
 ├── employer_dashboard.php
 ├── add_job.php
 ├── manage_jobs.php
 ├── view_applicants.php
-│
 ├── navbar.php
 ├── navbar_employer.php
-│
 ├── styles.css
 └── README.md
-
-
----
 
 ## Setup Instructions
 
 ### 1. Clone the repository
 
 
-git clone https://github.com/your-username/job-portal.git
+git clone https://github.com/Kai-4490/job-portal
 
 
 ---
