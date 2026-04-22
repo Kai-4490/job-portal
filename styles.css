@@ -1,0 +1,124 @@
+/* ===== GLOBAL ===== */
+body {
+    background-color: #f3f2ef; /* LinkedIn bg */
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar a,
+.navbar-brand {
+    color: #0a66c2 !important;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #004182 !important;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 1000px;
+}
+
+/* ===== CARDS ===== */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.card:hover {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+/* ===== TABLE ===== */
+.table {
+    margin-bottom: 0;
+}
+
+.table thead {
+    background-color: #f9fafb;
+}
+
+.table th {
+    font-weight: 600;
+    color: #666666;
+    font-size: 14px;
+}
+
+.table td {
+    font-size: 14px;
+}
+
+.table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* ===== HEADINGS ===== */
+h3 {
+    font-weight: 600;
+    color: #000;
+}
+
+/* ===== BUTTONS ===== */
+.btn-primary {
+    background-color: #0a66c2;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004182;
+}
+
+.btn-success {
+    background-color: #057642;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #d11124;
+    border: none;
+}
+
+/* ===== BADGES ===== */
+.badge {
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 6px;
+}
+
+/* ===== STATUS COLORS ===== */
+.badge.bg-success {
+    background-color: #057642 !important;
+}
+
+.badge.bg-danger {
+    background-color: #d11124 !important;
+}
+
+.badge.bg-secondary {
+    background-color: #6c757d !important;
+}
+
+/* ===== TEXT ===== */
+.text-muted {
+    color: #666666 !important;
+}
+/* FORCE LOGOUT RED */
+.navbar .logout-link {
+    color: #d11124 !important;
+    font-weight: 600;
+    text-decoration: none !important;   /* 👈 THIS FIXES IT */
+}
+
+.navbar .logout-link:hover {
+    color: #a50e1f !important;
+    text-decoration: none !important;   /* 👈 keep it clean on hover */
+}
